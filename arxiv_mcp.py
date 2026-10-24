@@ -21,7 +21,7 @@ client = arxiv.Client()
 
 @mcp.tool()
 def get_arxiv(max_results: int, topic: str):
-    """Gets the latest papers from arxiv based on the topic given by user (eg., Machine Learning, Astro physics, Chemistry,Mathematics, etc. )and returns the following information for them: Title, Author, Summary, Link, Published date, Important information"""
+    """ Gets the latest papers from arXiv based on the topic given by the user (eg., Machine Learning, Astrophysics, Chemistry, Mathematics, etc. )and returns the following information for them: Title, Author, Summary, Link, Published date, Important information"""
 
     search = arxiv.Search(
         query= topic,
