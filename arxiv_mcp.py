@@ -55,7 +55,7 @@ def get_arxiv(max_results: int, topic: str):
 @mcp.tool()
 def get_paper_content(pdf_url: str, max_pages:int):
      
-     """Downloads a specific ArXiv paper using its PDF link and extracts its text for deep research."""
+     """ Downloads a specific ArXiv paper using its PDF link and extracts its text for deep research."""
 
      logger.info(f"Downloading and parsing PDF from: {pdf_url}")
     
